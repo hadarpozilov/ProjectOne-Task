@@ -1,0 +1,68 @@
+#body {
+    background-image: url(./B1030-B10431.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+#titelh1 {
+    margin-left: 550px;
+    font-family: cursive;
+    padding: 20px;
+
+}
+
+.form {
+    height: 450px;
+    width: 450px;
+    background-image: url(./task.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 480px;
+    margin-right: 50px;
+    padding: 70px;
+}
+
+.delitBtn {
+    background-color: rgb(177, 77, 77);
+    border-radius: 100px;
+    display: none;
+
+}
+
+.displayImg {
+    background-image: url(./image-task.jpg);
+    background-repeat: repeat;
+    position: relative;
+    width: 300px;
+    height: auto;
+    min-height: 300px;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;         
+    margin: 50px;
+    background-size: 300px, 500px;
+}
+
+.text {
+    padding: 50px;
+}
+
+.card-text {
+    color: rgb(177, 77, 77);
+}
+
+#display {
+    display: flex;
+}
+
+.timedate {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.displayImg:hover  .delitBtn {
+    display: block;
+}
